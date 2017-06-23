@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap 101 Template</title>
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link href="lib/css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+	</head>
+
+	<body>
+
+		<!--<header></header>-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!--小屏幕按钮和logo-->
+				<div class="navbar-header">
+					<button class="navbar-toggle " data-toggle="collapse" data-target="#icon">
+		<span class="sr-only"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+					<a href="index.html" class="navbar-brand">Maizi Admiin</a>
+				</div>
+				<!--	小导航-->
+				<div class="navbar-collapse collapse" id="icon">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="back.html"><span class="glyphicon glyphicon-home"></span>&nbsp;后台首页</a>
+						</li>
+						<li>
+							<a href="user_list.html"><span class="glyphicon glyphicon-user"></span>&nbsp;用户管理</a>
+						</li>
+						<li class="active">
+							<a href="content.html"><span class=" glyphicon glyphicon-list-alt"></span>&nbsp;内容管理</a>
+						</li>
+						<li>
+							<a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;标签管理</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								admin
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li>
+									<a href="index.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-asterisk"></span>&nbsp;个人设置</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏 </a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="list-group">
+							<a href="content.html" class="list-group-item active">内容管理</a>
+							<a href="content_post.html" class="list-group-item">添加内容</a>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="page-header">
+							<h1>内容管理</h1>
+						</div>
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a href="content.html">文章管理</a>
+							</li>
+							<li>
+								<a href="content_post.html">添加文章</a>
+							</li>
+						</ul>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>文章标题</th>
+									<th>作者</th>
+									<th>发布时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">啊实打实大师的群无无群翁群无多群</th>
+									<td>张三</td>
+									<td>2017-8-12</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												操作 <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">编辑</a></li>
+												<li><a href="#">删除</a></li>												
+												<li><a href="#">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<nav class="pull-right">
+						<ul class="pagination">
+							<li class="disabled">
+								<a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+							</li>
+							<li class="active">
+								<a href="#">1 </a>
+							</li>
+							<li>
+								<a href="#">2 </a>
+							</li>
+							<li>
+								<a href="#">3 </a>
+							</li>
+							<li>
+								<a href="#" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a>
+							</li>
+						</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Copyright&nbsp;@&nbsp;2012-2015&nbsp;www.maiziedu.com&nbsp;&nbsp;蜀ICP备13014270号-4</p>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

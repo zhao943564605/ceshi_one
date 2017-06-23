@@ -1,0 +1,22 @@
+@import url(m_style.css);
+.cen {
+  margin: 0 auto;
+}
+.progress {
+  margin-bottom: 15px;
+}
+/*头像专用*/
+.wh {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.mat.btn.btn-default {
+  margin-top: 15px;
+}
+/*footer*/
+footer {
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+}
